@@ -1,0 +1,54 @@
+{
+  "banks": [{
+    "bankname": "ICICI",
+    "id": 1
+    },
+    {
+          "bankname": "SBI",
+          "id": 2
+      },
+
+      {
+         "bankname": "Kotak",
+         "id": 3
+      },
+      {
+          "bankname": "HDFC",
+          "id": 4
+      },
+
+
+      {
+           "bankname": "City",
+           "id": 5
+       }
+  ,
+
+
+    {
+      "bankname": "Yes",
+      "id": 6
+    }
+
+  ,
+
+    {
+      "bankname": "RBL",
+      "id": 7
+    }
+
+  ,
+
+
+    {
+      "bankname": "IndusInd",
+      "id": 8
+    },
+
+    {
+      "bankname": "BOI",
+      "id": 9
+    }
+
+  ]
+}

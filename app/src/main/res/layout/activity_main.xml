@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#d0e9e1"
+    android:layout_height="match_parent">
+
+
+
+    <include
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar"/>
+
+      <ListView
+          android:id="@+id/list"
+          android:scrollbars="@null"
+          android:layout_below="@+id/tool"
+          android:layout_margin="12dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/btnadd"
+        android:background="#da3939"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="Proceed to checkout"/>
+
+</RelativeLayout>

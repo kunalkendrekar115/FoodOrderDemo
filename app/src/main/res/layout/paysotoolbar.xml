@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="130dp"
+                android:id="@+id/fulllogo"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/yologo"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="name"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/title"
+                android:layout_height="wrap_content"/>
+
+
+            <RelativeLayout
+                android:id="@+id/cart"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_width="60dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="40dp"
+                    android:id="@+id/c"
+                    android:src="@drawable/cart_focus"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="1"
+                    android:gravity="center"
+                    android:layout_alignLeft="@+id/c"
+                    android:textSize="14sp"
+                    android:background="@drawable/circle"
+                    android:id="@+id/count"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

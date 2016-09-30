@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/minus"
+        android:background="#da3939"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="bottom"
+        android:text="-"/>
+
+       <TextView
+           android:id="@+id/txtqty"
+           android:layout_marginLeft="6dp"
+           android:layout_marginRight="6dp"
+           android:textColor="#000000"
+           android:layout_gravity="center_vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:text="0"
+           android:gravity="center"/>
+
+    <Button
+        android:id="@+id/add"
+        android:background="#da3939"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="bottom"
+        android:text="+"/>
+
+</LinearLayout>

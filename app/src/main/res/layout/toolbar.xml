@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:gravity="center"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:minHeight="64dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+               <RelativeLayout
+                  android:id="@+id/y"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   >
+
+                   <ImageView
+                       android:layout_width="135dp"
+                       android:layout_marginLeft="10dp"
+                       android:id="@+id/fulllogo"
+                       android:layout_centerInParent="true"
+                       android:scaleType="fitXY"
+                       android:src="@drawable/yologo"
+                       android:layout_height="35dp"/>
+
+
+
+         <RelativeLayout
+              android:visibility="invisible"
+              android:id="@+id/cart"
+              android:layout_alignParentRight="true"
+              android:layout_width="60dp"
+              android:layout_height="match_parent">
+
+                 <ImageView
+                     android:layout_centerInParent="true"
+                     android:layout_width="35dp"
+                     android:id="@+id/c"
+                     android:src="@drawable/cart"
+                     android:layout_height="35dp"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:text="1"
+                 android:gravity="center"
+                 android:layout_alignLeft="@+id/c"
+                 android:textSize="12sp"
+                 android:background="@drawable/circle"
+                 android:id="@+id/count"
+                 android:layout_height="wrap_content"/>
+
+         </RelativeLayout>
+
+
+                   <ImageView
+                       android:layout_centerVertical="true"
+                       android:layout_marginRight="8dp"
+                       android:layout_alignBottom="@+id/fulllogo"
+                       android:layout_alignParentLeft="true"
+                       android:layout_width="30dp"
+                       android:layout_marginLeft="15dp"
+                       android:id="@+id/p"
+                       android:src="@drawable/profile_icon"
+                       android:layout_height="30dp"/>
+               </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

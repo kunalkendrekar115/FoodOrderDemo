@@ -1,0 +1,28 @@
+{
+  "products": [{
+    "productname": "Sandwich",
+    "id": 1,
+    "imageid": 1,
+    "price": 60,
+    "description": "Sandwich with extra tomato and meat"
+  }, {
+    "productname": "Wraps",
+    "id": 2,
+
+    "imageid": 2,
+    "price": 70,
+    "description": "Special paneer wrap"
+  }, {
+    "productname": "Salad",
+    "id": 3,
+    "imageid": 3,
+    "price": 80,
+    "description": "Green salad"
+  }, {
+    "productname": "Biryani",
+    "id": 4,
+    "imageid": 4,
+    "price": 90,
+    "description": "Delicious chicken biryani"
+  }]
+}

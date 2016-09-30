@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<LinearLayout
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_below="@+id/tool"
+   android:orientation="vertical" >
+    <TextView
+        android:textColor="#6b6b6b"
+        android:textStyle="bold"
+        android:layout_below="@+id/tool"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Please choose payment options" />
+
+    <TextView
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/tool"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="Credit Card" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#003366"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="40dp">
+
+        <Spinner
+            android:id="@+id/sp1"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:popupBackground="#003366"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/down"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/tool"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="Debit Card" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#003366"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="40dp">
+
+        <Spinner
+            android:id="@+id/sp2"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:popupBackground="#003366"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/down"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/tool"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="Net Banking" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#003366"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="40dp">
+
+        <Spinner
+            android:id="@+id/sp3"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:popupBackground="#003366"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/down"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:background="@drawable/submit"
+        android:text="Cancel" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
